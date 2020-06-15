@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <title>TP01</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+        <img src="img/logo.png" class="logo">
+        <input type="search" placeholder="Buscar">
+        </div>
+        <div class="navegacion">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="enfermedades.html">Enfermedades</a>
+                <a href="#">Vacunacion</a>
+                <a href="hospitales.html">Hospitales</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+    <h2>covid-19</h2>
+    <div class="contenedor-grilla">
+        <img class="borde-imagen" src="img/enfermedad.jpg" alt="covid">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat urna sit amet nisi rutrum dictum. Donec sodales lorem est, at hendrerit metus dignissim in. Quisque quis quam metus. Donec sollicitudin ut risus quis luctus. Sed elementum cursus augue in luctus. Nullam suscipit odio eget eros ultricies, in iaculis velit ultricies. Maecenas venenatis diam sit amet felis condimentum consequat. Sed id massa a quam dictum varius. Suspendisse egestas, felis eget consectetur semper, dui sapien consectetur nulla, ut commodo lorem massa sed ante. Nunc aliquet quam orci, quis pellentesque eros semper eget. Integer augue magna, elementum et erat eu, mattis maximus nunc.
+        Integer at venenatis purus. Fusce lobortis tortor ac ante maximus, eget sollicitudin metus tempus. Duis tristique mattis magna, at semper purus bibendum ac. Ut quis purus et dui convallis convallis. Nulla dapibus, quam non dignissim egestas, mauris nibh iaculis purus, a luctus risus nulla quis sem. Nunc nulla tortor, posuere eget nulla eu, lacinia tincidunt odio. Pellentesque sed semper velit, a sollicitudin felis. Donec posuere massa sed mauris commodo, eget commodo ligula porta. Pellentesque non tincidunt augue. Sed ac vehicula velit. Aenean sed blandit leo.</p>
+    </div>
+<section>
+    <h3>Formulario de deteccion (TEST) de coroncavirus (covi-149)</h3>
+    <div class="contenedor-grilla">
+        <div class="informacion">
+            <p>Hola usuario! Si tienes síntomas de XXXX o has estado en contacto
+                con una persona afectada deberías hacer un control y seguimiento diario de tus
+                síntomas.</p>
+            <p>Esta aplicación te permitirá hacer un seguimiento de la evolución de los
+                síntomas y te dará las indicaciones y consejos a seguir en cada caso.
+                El uso de este servicio supone la aceptación de los términos y la política de
+                privacidad descritos en <a href="#">Ver las condiciones y políticas</a></p>
+            <h4>Sintomas</h4>
+            <div class="sintomas">
+                <img src="img/23-fiebre-tos.png" alt="fiebre y tos">
+                <img src="img/24-fiebre-dolor-garganta.png" alt="fiebre y tos">
+                <img src="img/25-fiebre-dificultad-respirar.png" alt="fiebre y tos">
+            </div>
+        </div>
+        <div class="formulario">
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" id="nombre" placeholder="Ingrese nombre y apellido" maxlength="50">
+            <label for="dni">DNI</label>
+            <input type="text" id="dni" placeholder="DNI" maxlength="8">
+            <label for="tel">Teléfono</label>
+            <input type="tel" id="tel" placeholder="Ingrese su numero">
+            <label for="ciudad">Ciudad</label>
+            <input type="text" id="Ciudad" placeholder="Ingrese ciudad">
+            <label for="sexo">Sexo</label>
+            <input name="sexo" type="radio" checked="checked"> <label for="sexo">M</label>
+            <input name="sexo" type="radio"> <label for="sexo">F</label>
+            <label for="viaje">¿Has viajado al exterior de la República Argentina? </label>
+            <input name="viaje" type="radio" checked="checked"> <label for="viaje">NO</label>
+            <input name="viaje" type="radio"> <label for="viaje">SI</label>
+            <label for="paises">Paises visitados</label>
+            <select name="paises" id="paises">
+            <option value="--Seleccione--">--Seleccione--</option>
+                <option value="brasil">Brasil</option>
+                <option value="italia">Italia</option>
+                <option value="china">China</option>
+                <option value="eeuu">Estados Unidos</option>
+            </select>
+            <legend>Por favor, indica los síntomas que presentas:</legend>
+            <div class="preguntas">
+            <label> ¿Tuviste Fiebre mayor a 38 grados?</label>
+            <input type="radio" checked="checked"> <label>Si</label>
+            <input type="radio"> <label>No</label>
+            <label>¿Tuviste Dolor de cabeza?</label>
+            <input type="radio" checked="checked"> <label>Si</label>
+            <input type="radio"> <label>No</label>
+            <label>¿Tuviste una tos persistente? </label>
+            <input type="radio" checked="checked"> <label>Si</label>
+            <input type="radio"> <label>No</label>
+            <label>¿Tuviste dolor de garganta? </label>
+            <input type="radio" checked="checked"> <label>Si</label>
+            <input type="radio"> <label>No</label>
+            <label>¿Tuviste dificultad para respirar? </label>
+            <input type="radio" checked="checked"> <label>Si</label>
+            <input type="radio"> <label>No</label>
+            </div>
+            <label for="direccion">Direccion</label>
+            <input type="text" id="direccion" placeholder="Ingrese su direccion">
+            <label for="ciudad">Ciudad</label>
+            <input type="text" id="Ciudad" placeholder="Ingrese ciudad">
+        </div>
+    </div>
+</section>
+<section>
+    <h3>Medidas de precaucion</h3>
+    <div class="imagenes">
+        <img src="img/14-lavarse-manos.png" alt="">
+        <img src="img/15-estornudar.png" alt="">
+        <img src="img/16-tocar-nariz.png" alt="">
+        <img src="img/17-ventilar.png" alt="">
+        <img src="img/18-limpiar-objetos.png" alt="">
+        <img src="img/19-permanecer-domicilio.png" alt="">
+        <img src="img/20-reducir-contacto.png" alt="">
+        <img src="img/21-no-compartir-mate.png" alt="">
+    </div>
+</section>
+<section>
+        <div class="contendedor">
+        <h3>Medidas de precaucion</h3>
+        <div>
+            <h4>Nombre hospital</h4>
+            <p>Tel</p>
+            <p>Direccion</p>
+            <p>Ciudad</p>
+            <img src="" alt="">
+        </div>
+        <div>
+
+        </div>  
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+        <div class="grupo">
+            <h3>Datos del grupo</h3>
+            <p>Savedra Carlos Nahuel</p>
+            <p>DNI 40232796</p>
+        </div>
+        <div class="menu-inferior">
+            <h4>Menú inferior</h4>
+                <a href="enfermedades.html">Enfermedades</a>
+                <a href="#">Vacunas</a>
+                <a href="hospitales.html">Hospitales</a>
+                <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="redes">
+            <h4>Redes sociales</h4>
+            <i class="fas fa-user"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+    </footer>
+</body>
+</html>

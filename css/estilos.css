@@ -1,0 +1,216 @@
+/* COLORES
+Color Theme Swatches in Hex 
+.Grises-1-hex { color: #323232; }
+.Grises-2-hex { color: #464646; }
+.Grises-3-hex { color: #505050; }
+.Grises-4-hex { color: #5A5A5A; }
+.Grises-5-hex { color: #646464; }
+*/
+
+/* PRINCIPAL */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #5A5A5A;
+}
+.borde-imagen {
+    border-radius: 15px;
+    border: solid 3px #646464;
+}
+/* HEADER */
+.header {
+    background-color: #323232;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    max-width: 2.5em;
+    padding: 5px 5px;
+}
+/* MAIN */
+.carrousel img{
+    height: 100%;
+    width: 100%;
+}
+.paginas h1{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-index {
+    margin: 0 auto;
+	width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.opcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opcion img{
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.opcion-texto {
+    width: 80%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #5A5A5A;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.telefono {
+    background-color: #646464;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+/* FOOTER */
+.footer {
+    color: white;
+    background-color: #323232;
+    margin-top: 10px;
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.grupo {
+    margin-left: 20px;
+}
+.grupo p {
+    margin: 0 0 .1em 0;
+}
+.menu-inferior a {
+    display: block;
+    flex-direction: column;
+    margin-bottom: .1em;
+    text-decoration: none;
+    color: white;
+}
+.redes {
+    margin-right: 20px;
+}
+.redes i {
+    color: white;
+}
+/* INTERNAS */
+
+/*nav*/
+.navegacion {
+    background-color: #646464;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegacion a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 5px 10px;
+}
+.navegacion a:hover{
+    width: 100%;
+    color: #646464;
+    background-color: white;
+}
+
+.enfermedades input {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+}
+.enfermedad img {
+    height: 150px;
+    margin-right: 15px;
+}
+
+.enfermedad {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    
+}
+.enfermedad h3 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #5A5A5A;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+}
+.enfermedad p {
+    margin: 2px 0 10px 0;
+    color: #646464;
+}
+.enfermedad a {
+    margin-top: 10px;
+    padding: 5px;
+    background-color:#323232;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.enfermedad a:hover {
+    background-color: #646464;
+    color: white;
+}
+/*PAGINA COVID*/
+.contenedor-grilla {
+    width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contenedor-grilla img{
+    width: 500px;
+    margin-right: 10px;
+}
+.contenedor-grilla p {
+    margin: 0 10px 0 0;
+}
+section h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #5A5A5A;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+}
+label{
+    display:block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+.preguntas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.preguntas label {
+    margin: 10px 10px 10px 0;
+}
+.preguntas input {
+    display: inline-block;
+    justify-content: center;
+}
+.imagenes img {
+    width: 80%;
+}
+.imagenes {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
